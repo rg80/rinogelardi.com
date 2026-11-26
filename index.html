@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rino Gelardi · Governance delle infrastrutture IT</title>
+<meta name="description" content="Rino Gelardi, consulente indipendente di governance delle infrastrutture IT. Torino, Italia, lavoro da remoto. Sito in costruzione. IT Infrastructure Governance, Turin, Italy, remote.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#F4F4F2">
+<!--
+  Temporary "work in progress" landing page for rinogelardi.com.
+  Identity: direction A "Svizzera, sobria" (BRAND_Immagine_Coordinata.md).
+  Rules applied: light blue #6E9BD1 only inside the monogram; Blu Torino #1D3A5F only on
+  the role line; no decorative bars elsewhere; no em dashes in text.
+  No external requests: Inter is used only if installed on the visitor's machine, otherwise
+  Helvetica/Arial (same fallback as the signatures). Google Fonts deliberately not loaded:
+  it sends the visitor's IP to Google (GDPR issue, LG München 2022).
+  Indexing allowed on purpose: whoever searches the name should find this page.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rino Gelardi",
+  "jobTitle": "IT Infrastructure Governance",
+  "url": "https://rinogelardi.com/",
+  "email": "mailto:info@rinogelardi.com",
+  "telephone": "+39 340 388 9830",
+  "address": { "@type": "PostalAddress", "addressLocality": "Torino", "addressCountry": "IT" },
+  "knowsLanguage": ["it", "en"]
+}
+</script>
+<style>
+  :root {
+    --ink: #111418;
+    --blu: #1D3A5F;
+    --azzurro: #6E9BD1;
+    --pietra: #5F6368;
+    --linea: #D9DBDE;
+    --carta: #F4F4F2;
+    --heading: "Inter Tight", Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --body: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--carta);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 48px 24px;
+  }
+  .wrap { width: 100%; max-width: 640px; margin: 0 auto; }
+
+  /* Monogram: same construction as the signature, scaled up */
+  .mark {
+    width: 72px; height: 72px;
+    background: var(--ink);
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .mark::before {
+    content: ""; position: absolute;
+    left: 9px; top: 9px; width: 18px; height: 3px;
+    background: var(--azzurro);
+  }
+  .mark span {
+    position: absolute; left: 9px; bottom: 7px;
+    font-family: var(--heading);
+    font-weight: 700; font-size: 29px; letter-spacing: -1.5px; line-height: 1;
+    color: #FFFFFF;
+  }
+
+  h1 {
+    font-family: var(--heading);
+    font-size: clamp(32px, 6vw, 44px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0;
+  }
+  .role {
+    font-weight: 600;
+    color: var(--blu);
+    margin: 8px 0 0;
+    font-size: 17px;
+  }
+
+  .status {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--linea);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .status p { margin: 0; color: var(--pietra); font-size: 15px; }
+  .status strong {
+    display: block;
+    color: var(--ink);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .contacts {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--linea);
+    font-size: 15px;
+  }
+  .contacts a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--linea); }
+  .contacts a:hover, .contacts a:focus-visible { border-bottom-color: var(--ink); outline: none; }
+  .contacts .sep { color: var(--linea); margin: 0 10px; }
+  .contacts .where { color: var(--pietra); margin-top: 4px; }
+
+  footer {
+    padding: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--pietra);
+  }
+
+  @media (max-width: 520px) {
+    .status { grid-template-columns: 1fr; gap: 16px; }
+    .contacts .line .sep { display: none; }
+    .contacts .line a { display: block; width: fit-content; margin-bottom: 6px; }
+    .role .en { display: block; }
+    .role .dot { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="wrap">
+    <div class="mark" aria-hidden="true"><span>RG</span></div>
+
+    <h1>Rino Gelardi</h1>
+    <p class="role">Governance delle infrastrutture IT <span class="dot">·</span> <span class="en" lang="en">IT Infrastructure Governance</span></p>
+
+    <div class="status">
+      <p><strong>Sito in costruzione</strong>Il sito completo è in preparazione. Nel frattempo sono raggiungibile ai contatti qui sotto.</p>
+      <p lang="en"><strong>Website under construction</strong>The full website is on its way. In the meantime, you can reach me at the contacts below.</p>
+    </div>
+
+    <div class="contacts">
+      <div class="line">
+        <a href="mailto:info@rinogelardi.com">info@rinogelardi.com</a><span class="sep">|</span><a href="tel:+393403889830">+39 340 388 9830</a>
+      </div>
+      <div class="where">Torino, Italia · Remote</div>
+    </div>
+  </div>
+</main>
+<footer>© 2026 Rino Gelardi</footer>
+</body>
+</html>
